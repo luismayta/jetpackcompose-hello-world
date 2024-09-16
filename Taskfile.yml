@@ -39,8 +39,9 @@ vars:
   REVIEWERS: luismayta
   PYTHON_VERSION: 3.11.5
   NODE_VERSION: 18.20.4
+  JENV_VERSION: 18.20.4
   TERRAFORM_VERSION: 1.9.5
-  GIT_IGNORES: python,node,go,zsh,sonar,java,maven,intellij+all,terraform,linux
+  GIT_IGNORES: python,node,go,zsh,sonar,java,maven,intellij+all,terraform,linux,gradle
   GOLANGCI_VERSION: 1.42.0
   README_FILE: README.md
   GIT_IGNORES_CUSTOM: |
@@ -55,6 +56,7 @@ vars:
     *.lock
     *.zip
     .external_modules
+    gradle/**/*.jar
     vendor
 
 tasks:
