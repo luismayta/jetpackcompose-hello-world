@@ -594,4 +594,5 @@ TMP_CHANGELOG.md
 gradle/**/*.jar
 vendor
 .java-version
+local.properties
 
