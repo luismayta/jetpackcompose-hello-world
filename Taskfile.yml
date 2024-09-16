@@ -59,6 +59,7 @@ vars:
     gradle/**/*.jar
     vendor
     .java-version
+    local.properties
 
 tasks:
   default:
