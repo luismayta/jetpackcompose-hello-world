@@ -1,0 +1,22 @@
+{
+  "baseUrl": "https://github.com/luismayta/jetpackcompose-hello-world",
+  "ignorePatterns": [
+    {
+      "pattern": "^https://hadenlabs.com"
+    }
+  ],
+  "replacementPatterns": [
+    {
+      "pattern": "^/docs",
+      "replacement": "{{BASEURL}}/docs"
+    },
+    {
+      "pattern": "^/",
+      "replacement": "{{BASEURL}}/"
+    }
+  ],
+  "timeout": "20s",
+  "retryCount": 3,
+  "fallbackRetryDelay": "30s",
+  "aliveStatusCodes": [200, 206]
+}
